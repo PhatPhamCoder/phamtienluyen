@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-131921: #131921;
+    --color-3b4149: #3b4149;
+    --color-febd69: #febd69;
+    --color-232f3e: #232f3e;
+    --color-bf4800: #bf4800;
+    --color-f5f5f7: #f5f5f7;
+    --color-ededed: #ededed;
+    --color-777777: #777777;
+    --color-1c1c1b: #1c1c1b;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: pink;
+}
+
+.social-contact a {
+    color: var(--color-1c1c1b);
+    text-decoration: none;
+    text-align: justify;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: inherit;
+}
+
+.gap-10 {
+    gap: 10px
+}
+
+.gap-15 {
+    gap: 15px
+}
+
+.gap-30 {
+    gap: 30px
+}
+
+.home-wrapper .avatar {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+
+/* name */
+.typed-animation {
+    display: inline-block;
+}
+
+.typed-out {
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 0.25rem solid #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    animation: typing 5s steps(40) infinite, blinking 1s infinite;
+}
+
+@keyframes typing {
+
+    0%,
+    100% {
+        width: 0;
+    }
+
+    50%,
+    90% {
+        width: 100%;
+    }
+}
+
+@keyframes blinking {
+
+    0%,
+    100% {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: #fff;
+    }
+}
+
+/* name end */
+/* Desciption pages */
+
+.desciption-content {
+    padding: 10px;
+    background-color: green;
+    color: var(--color-ededed);
+    border-radius: 10px;
+}
+
+/* Desciption pages end */
+/* Social contact */
+.social-contact {
+    cursor: pointer;
+}
+
+.icon-social {
+    font-size: 50px;
+}
+
+.facebook .icon-social {
+    color: blue;
+}
+
+.youtube .icon-social {
+    color: red;
+}
+
+.tiktok .icon-social {
+    color: red;
+}
+
+.icon-social img.logo-toeic {
+    width: 50px;
+}
+
+.icon-social img.logo-tiktok {
+    width: 100px;
+}
+
+/* Social contact End */
+
+/* Information */
+.information p {
+    background-color: #4285f4;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Information end */
+
+/* result-comments */
+.result-comments p {
+    background-color: #4285f4;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* result-comments end */
+
+/* Document Share */
+.document-share iframe {
+    height: 100%;
+}
+
+/* Document Share End */
+/* Footer */
+.footer-wrapper p {
+    text-align: center;
+    color: var(--color-1c1c1b);
+    font-weight: 500;
+}
+
+
+/* Footer End */
