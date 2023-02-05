@@ -182,15 +182,18 @@ div .count {
 /* result-comments end */
 
 /* Document Share */
+.document-share-wrapper iframe {
+    height: 200px;
+}
 
 /* Document Share End */
 /* Footer */
 .footer-wrapper {
     background-color: #1c1c1b;
-    z-index: 100000;
 }
 
 .footer-wrapper p {
+    margin-top: 100px;
     text-align: center;
     color: var(--color-ededed);
     font-weight: 500;
