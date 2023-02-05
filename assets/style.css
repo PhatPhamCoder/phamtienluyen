@@ -18,14 +18,17 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: pink;
 }
 
 .social-contact a {
-    color: var(--color-1c1c1b);
     text-decoration: none;
     text-align: justify;
 }
+
+.social-contact a:hover {
+    color: var(--color-1c1c1b);
+}
+
 
 .form-control:focus {
     box-shadow: none;
@@ -100,36 +103,44 @@ body {
 }
 
 /* Desciption pages end */
+
 /* Social contact */
 .social-contact {
     cursor: pointer;
 }
 
-.icon-social {
-    font-size: 50px;
+.icon-social .logo-facebook {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
 }
 
-.facebook .icon-social {
-    color: blue;
+.icon-social .logo-youtube {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
 }
 
-.youtube .icon-social {
-    color: red;
+.icon-social .logo-toeic {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
 }
 
-.tiktok .icon-social {
-    color: red;
-}
-
-.icon-social img.logo-toeic {
-    width: 50px;
-}
-
-.icon-social img.logo-tiktok {
+.icon-social .logo-tiktok {
     width: 100px;
+    height: 60px;
+    object-fit: cover;
 }
 
 /* Social contact End */
+
+/* Count followe animation */
+div .count {
+    font: 700 14px system-ui;
+}
+
+/* Count followe animation end */
 
 /* Information */
 .information p {
@@ -156,10 +167,16 @@ body {
 
 /* Document Share End */
 /* Footer */
+.footer-wrapper {
+    background-color: #1c1c1b;
+}
+
 .footer-wrapper p {
     text-align: center;
-    color: var(--color-1c1c1b);
+    color: var(--color-ededed);
     font-weight: 500;
+    line-height: 30px;
+    margin: auto;
 }
 
 
