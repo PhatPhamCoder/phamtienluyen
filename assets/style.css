@@ -98,6 +98,16 @@ h3 {
 }
 
 /* name end */
+
+/* Slide */
+.swiper {
+    width: 600px;
+    height: 300px;
+    background-color: white;
+    color: #0c0d07;
+}
+
+/* Slide end*/
 /* Desciption pages */
 
 .desciption-content {
